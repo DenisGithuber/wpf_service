@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Golovchenko_WPF"
         mc:Ignorable="d"
-        Title="Администратор" SizeToContent="WidthAndHeight">
+        Title="Администратор" SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen">
+    
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,10 +23,14 @@
         <StackPanel Grid.Row="1"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center">
+            
             <Button Content="Управление сотрудниками"
                     MinWidth="200"
                     MinHeight="50"
-                    Margin="10">
+                    Margin="10"
+                    FontFamily="Comic Sans MS"
+                    Click="btn_Staff">
+                
                 <Button.Background>
                     <SolidColorBrush Color="#F5F5DC"/>
                 </Button.Background>
@@ -32,7 +39,9 @@
             <Button Content="Управление заказами"
                     MinWidth="200"
                     MinHeight="50"
-                    Margin="10">
+                    Margin="10"
+                    FontFamily="Comic Sans MS">
+                
                 <Button.Background>
                     <SolidColorBrush Color="#F5F5DC"/>
                 </Button.Background>
@@ -41,14 +50,17 @@
             <Button Content="Управление сменами"
                     MinWidth="200"
                     MinHeight="50"
-                    Margin="10">
+                    Margin="10"
+                    FontFamily="Comic Sans MS">
+                
                 <Button.Background>
                     <SolidColorBrush Color="#F5F5DC"/>
                 </Button.Background>
             </Button>
 
             <Button Content="Выйти"
-                    Click="btn_Exit">
+                    Click="btn_Exit"
+                    FontFamily="Comic Sans MS">
                 <Button.Background>
                     <SolidColorBrush Color="#D9534F"/>
                 </Button.Background>

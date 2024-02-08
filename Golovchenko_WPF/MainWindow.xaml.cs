@@ -25,6 +25,7 @@ namespace Golovchenko_WPF
         {
             AdminWindow adminWin = new AdminWindow();
             adminWin.Show();
+            Close();
         }
     }
 }

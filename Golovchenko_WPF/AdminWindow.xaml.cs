@@ -28,8 +28,16 @@ namespace Golovchenko_WPF
         {
             MainWindow mainPage = new MainWindow();
             mainPage.Show();
+            Close();
 
-            
+
+        }
+
+        private void btn_Staff(object sender, RoutedEventArgs e)
+        {
+            NewStaff staffWindow = new NewStaff();
+            staffWindow.Show();
+            Close();
         }
     }
 }

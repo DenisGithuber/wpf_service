@@ -124,3 +124,5 @@ C:\Users\user\source\repos\Golovchenko_WPF\Golovchenko_WPF\obj\Debug\net8.0-wind
 C:\Users\user\source\repos\Golovchenko_WPF\Golovchenko_WPF\obj\Debug\net8.0-windows\Golovchenko_WPF.pdb
 C:\Users\user\source\repos\Golovchenko_WPF\Golovchenko_WPF\obj\Debug\net8.0-windows\Golovchenko_WPF.genruntimeconfig.cache
 C:\Users\user\source\repos\Golovchenko_WPF\Golovchenko_WPF\obj\Debug\net8.0-windows\ref\Golovchenko_WPF.dll
+C:\Users\user\source\repos\Golovchenko_WPF\Golovchenko_WPF\obj\Debug\net8.0-windows\NewStaff.g.cs
+C:\Users\user\source\repos\Golovchenko_WPF\Golovchenko_WPF\obj\Debug\net8.0-windows\NewStaff.baml
