@@ -45,7 +45,9 @@
                     Margin="10"
                     Height="30"
                     Width="200"
-                    Background="LightGreen"/>
+                    Background="LightGreen"
+                    
+                    Click="btn_Submit"/>
         </StackPanel>
     </Grid>
 </Window>

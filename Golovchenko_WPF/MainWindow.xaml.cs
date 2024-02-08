@@ -20,5 +20,11 @@ namespace Golovchenko_WPF
         {
             InitializeComponent();
         }
+
+        private void btn_Submit(object sender, RoutedEventArgs e)
+        {
+            AdminWindow adminWin = new AdminWindow();
+            adminWin.Show();
+        }
     }
 }
