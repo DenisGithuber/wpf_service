@@ -15,28 +15,19 @@ using System.Windows.Shapes;
 namespace Golovchenko_WPF
 {
     /// <summary>
-    /// Логика взаимодействия для AdminWindow.xaml
+    /// Логика взаимодействия для ManagingStaff.xaml
     /// </summary>
-    public partial class AdminWindow : Window
+    public partial class ManagingStaff : Window
     {
-        public AdminWindow()
+        public ManagingStaff()
         {
             InitializeComponent();
         }
 
-        private void btn_Exit(object sender, RoutedEventArgs e)
+        private void btn_click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainPage = new MainWindow();
-            mainPage.Show();
-            Close();
-
-
-        }
-
-        private void btn_ManagingStaff(object sender, RoutedEventArgs e)
-        {
-            ManagingStaff manageStaff = new ManagingStaff();
-            manageStaff.Show();
+            NewStaff addingStaff = new NewStaff();
+            addingStaff.Show();
             Close();
         }
     }

@@ -29,7 +29,7 @@
                     MinHeight="50"
                     Margin="10"
                     FontFamily="Comic Sans MS"
-                    Click="btn_Staff">
+                    Click="btn_ManagingStaff">
                 
                 <Button.Background>
                     <SolidColorBrush Color="#F5F5DC"/>
